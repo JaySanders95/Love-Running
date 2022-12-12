@@ -33,8 +33,9 @@ h1, h2 {
     }
 
 #menu a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
+    text-decoration: underline #3a3a3a;
+    
+    
 }
 
 #menu, #logo {
@@ -51,3 +52,6 @@ h1, h2 {
     color: inherit;
 }
 
+.active {
+    text-decoration: underline 1px #3a3a3a;
+}
